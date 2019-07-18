@@ -31,8 +31,6 @@ rsync -rv -e "ssh -l user" --exclude 'node_modules' --exclude '*.log' ./folder i
 date '+%Y-%m-%d %H:%M:%S'
 ```
 
-### File conversion
-
 #### Merge files line-by-line
 ```
 paste file1.txt file2.txt > fileresults.txt
@@ -73,4 +71,9 @@ or
 #### Kill all processes with a certain name
 ```
 ps aux | awk '/<app>/ {print $2}' | xargs kill
+```
+
+#### Split large file by smaller ones
+```
+split -l 20000 --additional-suffix=.csv --numeric-suffix file_name.csv file_name_
 ```
