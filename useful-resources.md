@@ -1,5 +1,6 @@
 ### Usefull resources
 
+* [Free for Developers](https://free-for.dev/#/) - This is a list of software (SaaS, PaaS, IaaS, etc.) and other offerings that have free tiers for developers.
 * [Crontab validator](https://crontab.guru/)
 * [mkert](https://github.com/FiloSottile/mkcert): A simple zero-config tool to make locally trusted development certificates with any names you'd like.
 * [container-structure-test](https://github.com/GoogleContainerTools/container-structure-test): validate the structure of your container images
